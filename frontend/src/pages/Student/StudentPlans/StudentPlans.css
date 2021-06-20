@@ -1,0 +1,115 @@
+.payment-plans-wrapper {
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+
+.payment-plans-wrapper span .plan-status, 
+.payment-plan-name .plan-status {
+  border: 1px solid;
+  padding: 0 5px;
+  font-size: 11px;
+  margin-left: 7px;
+}
+
+.payment-plans-wrapper span .plan-status.active,
+.payment-plan-name .plan-status.active {
+  color: #399a4f;
+}
+
+.payment-plans-wrapper span .plan-status.on-hold,
+.payment-plan-name .plan-status.on-hold {
+  color: #00123a;
+}
+
+.payment-plans-wrapper span .plan-status.cancelled,
+.payment-plan-name .plan-status.cancelled {
+  color: #dc3545;
+}
+
+.payment-plans-wrapper span .plan-status.completed,
+.payment-plan-name .plan-status.completed {
+  color: #0062CB;
+}
+
+.payment-plans-wrapper span {
+  color: #888f9e;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.payment-plans-wrapper h4 {
+  font-size: 18px;
+}
+
+.payment-plan-lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 6px 0;
+}
+
+.payment-plan-lists > span {
+  cursor: pointer;
+}
+
+.payment-plan-lists:not(:last-child) {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.title-heading {
+  display: flex;
+}
+
+.right-panel-slide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #00000014;
+  z-index: 9999;
+}
+
+.right-panel-content {
+  position: absolute;
+  right: 0;
+  width: 573px;
+  background: #ffff;
+  height: 100%;
+  overflow-y: auto;
+  transition: 0.2s width ease;
+}
+
+.close-panel-btn,
+.close-panel-btn:hover
+ {
+  font-size: 31px;
+  border: 0;
+  padding: 0 15px;
+  background: transparent;
+  color: #000;
+  text-decoration: none;
+}
+
+.panel-main-content-wrapper {
+  position: relative;
+  padding: 0 30px;
+}
+
+.right-panel-title {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px 20px 20px;
+  justify-content: space-between;
+}
+
+
+.paymentlist-action-wrapper .paymentlist-action {
+  font-size: 13px;
+}
+.StudentPaymentBreakdown h5 {
+  font-size: 16px;
+  color: #8b5cf6;
+}

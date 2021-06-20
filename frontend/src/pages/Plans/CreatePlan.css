@@ -1,0 +1,18 @@
+.create_plan_form_wrapper {
+  max-width: 500px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.additional-payment .et:not(:last-child) {
+  margin-right: 8px;
+}
+.additional-payment {
+  display: flex;
+}
+
+.additional-payment-wrapper {
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
